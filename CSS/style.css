@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Lexend';
+    src: url('../Fonts/Lexend/Lexend-VariableFont_wght.ttf') format(ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ovo';
+    src: url('../Fonts/Ovo/Ovo-Regular.ttf') format(ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pinyon Script';
+    src: url('../Fonts/Pinyon_Script/PinyonScript-Regular.ttf') format(ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.main-navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #102C57;
+    padding: 15px 0;
+    width: 100%;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    z-index: 100;
+  }
+ 
+.main-navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 320px;
+  }
+ 
+.main-navigation li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: Lexend;
+  }
+  
+.main-navigation li a {
+    text-decoration: none;
+    color: #aaa;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+
+.main-navigation li a:hover {
+    color: white
+}
+
+#HA {
+    color: white;
+}
+
+#PA {
+    color: white;
+}
+
+#AA {
+    color: white;
+}
+
+#main-brand {
+    margin-top: 100px;
+}
+
+.prod {
+    margin-top: 100px;
+}
+
+#About-Top {
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
