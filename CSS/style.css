@@ -5,7 +5,6 @@
     font-style: normal;
 }
  
- 
 @font-face {
     font-family: 'Ovo';
     src: url('../Fonts/Ovo/Ovo-Regular.ttf') format(ttf);
@@ -51,7 +50,7 @@ html, body {
     text-decoration: none;
     color: white;
     font-weight: lighter;
-    font-size: 23px;
+    font-size: 35px;
     font-family: Lexend;
 }
  
@@ -85,10 +84,6 @@ html, body {
 .prod {
     margin-top: 100px;
 }
- 
-#About-Top {
-    margin-top: 100px;
-}
 
 #Home-Top {
     background-image: url(../Images/Background/Home_Top.png);
@@ -98,7 +93,7 @@ html, body {
     min-height: 100vh;
     position: relative;
    background-position: center;
- }
+}
   
  #Logo-Cafe {
     position: absolute;
@@ -106,16 +101,16 @@ html, body {
     right: 100px;
     width: 29%;
     height: auto;
- }
+}
   
  #main-brand {
     position: absolute;
     font-family: lexend;
     margin-left: 3%;
-    bottom: 480px;
+    bottom: 400px;
     color:#111a27;
     font-size: 50px;
- }
+}
   
  #slogan {
     position: absolute;
@@ -123,13 +118,13 @@ html, body {
     font-size: 50px;
     color:#111a27 ;
     margin-left: 3%;
-    top: 35%;
+    top: 45%;
     width:max-content;
- }
+}
   
  #slogan span {
     font-family:Pinyon script;
- }
+}
   
  #Home-Mid {
     padding: 50px 8%;
@@ -140,7 +135,7 @@ html, body {
     position: relative;
     overflow: hidden;
     height: 100vh;
- }
+}
   
  .fitur {
     display: flex;
@@ -155,13 +150,13 @@ html, body {
     line-height: 1.6;
     z-index: 1;
     position: relative;
- }
+}
   
  .fitur img {
     width: 100px;
     height: auto;
     margin-bottom: 15px;
- }
+}
   
  .video-background {
     position: absolute;     
@@ -173,7 +168,7 @@ html, body {
     z-index: 0;
     transform: scale(1.8);
   
- }
+}
   
  .video-background video {
     min-width: 100%;
@@ -182,7 +177,7 @@ html, body {
     position: absolute;
     top: 0;
     left: 0;
- }
+}
   
  .video-overlay {
     position: absolute;
@@ -193,7 +188,7 @@ html, body {
     background-color: rgba(0, 0, 0, 0.703);
     z-index: 1;
     pointer-events: none;
- }
+}
   
  #Home-Bottom {
     background-image: url(../Images/Background/Home_Bottom.png);
@@ -202,24 +197,24 @@ html, body {
     min-width: 100vh;
     min-height: 100vh;
     position: relative;
-   background-position: center;
- }
+    background-position: center;
+}
   
  #Home-Bottom p {
     position: absolute;
     font-family:Ovo;
     font-size: 30px;
     color:#111a27 ;
-    margin-left: 41%;
-    top: 27%;
+    margin-left: 48%;
+    top: 30%;
     width:max-content;
     text-align: right;
     font-weight: bold;
- }
+}
   
  #Home-Time {
     font-family: lexend;
- }
+}
   
  #About-Top {
     background-image: url(../Images/Background/About_Top.png);
@@ -228,9 +223,13 @@ html, body {
     min-width: 100vh;
     min-height: 100vh;
     position: relative;
-  background-position: center;
- }
-  
+    background-position: center;
+}
+
+ #About-Top {
+    margin-top: 100px;
+}
+
  #About-History {
     position: absolute;
     font-family:Ovo;
@@ -242,34 +241,36 @@ html, body {
     text-align: right;
     font-weight: bold   ;
    
- }
+}
+ 
  #About-History span {
     font-family: Lexend;
     font-size: 48px;
-   font-weight:bolder;
- }
+    font-weight:bolder;
+}
+
  #About-History span1 {
     font-family:Pinyon script;
     font-size: 45px;
     margin-right: 15%;
-   font-weight:bolder;
-   
- }
+    font-weight:bolder;
+}
+
  #About-History span2 {
     font-family: Pinyon script;
     font-size: 45px;
-   font-weight:bolder;
- }
+    font-weight:bolder;
+}
   
  #About-Mid {
-   background-color:#dac0a3 ;
+    background-color:#dac0a3 ;
     padding-top: 20px;
     background-size: cover;
     min-width: 100vh;
     min-height: 100vh;
     position: relative;
-  background-position: center;
- }
+    background-position: center;
+}
   
  #About-Quote {
     font-size:42px ;
@@ -277,12 +278,13 @@ html, body {
     text-align: center;
     margin-top: 12%;
     color: black;
- }
+}
+
  #About-Yapping {
     font-family: Lexend;
     font-size: 25px;
     text-align: center;
- }
+}
   
  #About-Bottom {
     background-image: url(../Images/Background/About_Bottom.png);
@@ -291,8 +293,8 @@ html, body {
     min-width: 100vh;
     min-height: 100vh;
     position: relative;
-  background-position: center;
- }
+    background-position: center;
+}
   
  #About-End {
     position: absolute;
@@ -302,23 +304,23 @@ html, body {
     margin-left: 3%;
     top: 35%;
     width:max-content;
- }
+}
   
  #About-End span {
     font-family: Pinyon Script;
- }
+}
   
  #About-End span1 {
     font-family: Lexend;
- }
+}
   
  #About-Quote span1 {
     font-family: Lexend;
- }
+}
   
  #About-Quote span2 {
     font-family: Pinyon Script;
- }
+}
   
  footer {
     background-color: #102C57;
@@ -327,48 +329,48 @@ html, body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-  }
+}
    
-  .foot-info,
-  .foot-franchise {
+ .foot-info,
+ .foot-franchise {
     margin-bottom: 20px;
-    margin-top: 33px;
+    margin-top: 35px;
     font-family: Lexend;
-  }
+}
    
-  .foot-info h3 {
-    margin: 5px 0;
+ .foot-info h3 {
+    top: 15%;
     font-size: 24px;
     font-weight: normal;
-  }
+}
    
-  .foot-info p {
+ .foot-info p {
     font-size: 14px;
     margin-top: 10px;
     font-size: 24px;
-  }
+}
    
-  .foot-franchise ul {
+ .foot-franchise ul {
     list-style: none;
     padding: 0;
     margin-left: 0;
-  }
+}
    
-  .foot-franchise li {
+ .foot-franchise li {
     margin-bottom: 8px;
-    font-size: 24px;
-  }
+    font-size: 32px;
+}
    
-  .foot-franchise {
+ .foot-franchise {
     display: flex;
     gap: 100px;
-  }
+}
    
-  .foot-franchise .col1,
-  .foot-franchise .col2 {
+ .foot-franchise .col1,
+ .foot-franchise .col2 {
     list-style: none;
     padding: 0px
-  }
+}
 
 
 
