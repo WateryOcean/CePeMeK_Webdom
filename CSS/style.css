@@ -98,7 +98,7 @@ html, body {
     position: relative;
     background-position: center;
 }
- 
+
 #Logo-Cafe {
     position: absolute;
     top: 22%;
@@ -109,7 +109,7 @@ html, body {
  
 #main-brand {
     position: absolute;
-    font-family: lexend;
+    font-family: Lexend;
     margin-left: 3%;
     bottom: 480px;
     color:#111a27;
@@ -118,16 +118,16 @@ html, body {
  
 #slogan {
     position: absolute;
-    font-family:Ovo;
+    font-family: Ovo;
     font-size: 50px;
     color:#111a27 ;
     margin-left: 3%;
     top: 35%;
-    width:max-content;
+    width: max-content;
 }
  
 #slogan span {
-    font-family:Pinyon script;
+    font-family: Pinyon Script;
 }
  
 #Home-Mid {
@@ -171,7 +171,7 @@ html, body {
     overflow: hidden;
     z-index: 0;
     transform: scale(1.8);
- 
+
 }
  
 .video-background video {
@@ -189,7 +189,7 @@ html, body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.703);
+    background-color: rgba(0, 0, 0, 0.703); 
     z-index: 1;
     pointer-events: none;
 }
@@ -203,8 +203,8 @@ html, body {
     position: relative;
     background-position: center;
 }
- 
-#Home-Bottom p {
+
+#Home-Bottom p { 
     position: absolute;
     font-family:Ovo;
     font-size: 30px;
@@ -215,11 +215,11 @@ html, body {
     text-align: right;
     font-weight: bold;
 }
- 
+
 #Home-Time {
-    font-family: lexend;
+    font-family: Lexend;
 }
- 
+
 #About-Top{
     background-image: url(../Images/Background/About_Top.png);
     padding-top: 20px;
@@ -259,5 +259,4 @@ html, body {
     font-size: 45px;
    font-weight:bolder;
  }
-  
   
