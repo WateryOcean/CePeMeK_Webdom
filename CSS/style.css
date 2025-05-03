@@ -81,8 +81,10 @@ html, body {
     margin-top: 100px;
 }
  
-.prod {
-    margin-top: 100px;
+main{
+    font-size: 200px;
+    font-family: 'Ovo';
+    font-weight: bold;
 }
 
 #Home-Top {
@@ -214,6 +216,76 @@ html, body {
   
  #Home-Time {
     font-family: lexend;
+}
+
+.prod {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    padding: 20px 40px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+    max-width: 90%;
+}
+
+#Products {
+    padding-top: 120px;
+    background-image: url(../Images/Background/Products_Background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    min-height: 100vh;
+    width: 100%; 
+}
+
+.prod:hover {
+    transform: scale(1.01);
+}
+
+.prod-img img {
+    width: 180px;
+    height: 200px;
+    margin-bottom: -50px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 4px solid #152347;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 703);
+}
+
+.prod-info {
+    flex: 1;
+}
+
+.prod-name {
+    font-family: 'Lexend';
+    font-size: 33px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #111a27;
+}
+
+.prod-desc {
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 8px 0;
+    color: #444;
+}
+
+.prod-price {
+    font-size: 23px;
+    font-weight: bolder;
+    color: #000;
+    margin-top: 8px;
+}
+
+.prod-rate {
+    font-size: 18px;
+    color: #333;
+    margin-top: 5px;
 }
   
  #About-Top {
