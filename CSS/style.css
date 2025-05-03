@@ -322,10 +322,11 @@ html, body {
     font-family: Pinyon Script;
 }
   
- footer {
+footer {
     background-color: #102C57;
     color: #eee;
-    padding: 45px;
+    margin: 0px 0px 0px 0px;
+    padding: 5px 5px 40px 40px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -333,43 +334,45 @@ html, body {
    
  .foot-info,
  .foot-franchise {
-    margin-bottom: 20px;
-    margin-top: 35px;
+    margin-bottom: 10px;
+    margin-top: 40px;
     font-family: Lexend;
 }
    
  .foot-info h3 {
-    top: 15%;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: normal;
 }
    
  .foot-info p {
-    font-size: 14px;
     margin-top: 10px;
-    font-size: 24px;
+    font-size: 20px;
 }
    
  .foot-franchise ul {
     list-style: none;
-    padding: 0;
+    padding: 0px;
     margin-left: 0;
 }
    
  .foot-franchise li {
     margin-bottom: 8px;
-    font-size: 32px;
+    padding-right: 40px;
+    font-size: 23px;
 }
    
  .foot-franchise {
     display: flex;
-    gap: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
 }
    
  .foot-franchise .col1,
- .foot-franchise .col2 {
+ .foot-franchise .col2,
+ .foot-franchise .col3 {
     list-style: none;
-    padding: 0px
+    padding: 0px;
 }
 
 
