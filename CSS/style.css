@@ -50,7 +50,7 @@ html, body {
     text-decoration: none;
     color: white;
     font-weight: lighter;
-    font-size: 23px;
+    font-size: 35px;
     font-family: Lexend;
 }
  
@@ -84,11 +84,7 @@ html, body {
 .prod {
     margin-top: 100px;
 }
- 
-#About-Top {
-    margin-top: 100px;
-}
- 
+
 #Home-Top {
     background-image: url(../Images/Background/Home_Top.png);
     padding-top: 60px;
@@ -96,41 +92,41 @@ html, body {
     min-width: 100vh;
     min-height: 100vh;
     position: relative;
-    background-position: center;
+   background-position: center;
 }
-
-#Logo-Cafe {
+  
+ #Logo-Cafe {
     position: absolute;
     top: 22%;
     right: 100px;
     width: 29%;
-    height: auto;  
+    height: auto;
 }
- 
-#main-brand {
+  
+ #main-brand {
     position: absolute;
-    font-family: Lexend;
+    font-family: lexend;
     margin-left: 3%;
-    bottom: 480px;
+    bottom: 400px;
     color:#111a27;
     font-size: 50px;
 }
- 
-#slogan {
+  
+ #slogan {
     position: absolute;
-    font-family: Ovo;
+    font-family:Ovo;
     font-size: 50px;
     color:#111a27 ;
     margin-left: 3%;
-    top: 35%;
-    width: max-content;
+    top: 45%;
+    width:max-content;
 }
- 
-#slogan span {
-    font-family: Pinyon Script;
+  
+ #slogan span {
+    font-family:Pinyon script;
 }
- 
-#Home-Mid {
+  
+ #Home-Mid {
     padding: 50px 8%;
     display: flex;
     justify-content: space-around;
@@ -140,8 +136,8 @@ html, body {
     overflow: hidden;
     height: 100vh;
 }
- 
-.fitur {
+  
+ .fitur {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -155,15 +151,15 @@ html, body {
     z-index: 1;
     position: relative;
 }
- 
-.fitur img {
+  
+ .fitur img {
     width: 100px;
     height: auto;
     margin-bottom: 15px;
 }
- 
-.video-background {
-    position: absolute;      
+  
+ .video-background {
+    position: absolute;     
     top: 0;
     left: 0;
     width: 100%;
@@ -171,10 +167,10 @@ html, body {
     overflow: hidden;
     z-index: 0;
     transform: scale(1.8);
-
+  
 }
- 
-.video-background video {
+  
+ .video-background video {
     min-width: 100%;
     min-height: 100%;
     object-fit: cover;
@@ -182,19 +178,19 @@ html, body {
     top: 0;
     left: 0;
 }
- 
-.video-overlay {
+  
+ .video-overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.703); 
+    background-color: rgba(0, 0, 0, 0.703);
     z-index: 1;
     pointer-events: none;
 }
- 
-#Home-Bottom {
+  
+ #Home-Bottom {
     background-image: url(../Images/Background/Home_Bottom.png);
     padding-top: 180px;
     background-size: cover;
@@ -203,34 +199,38 @@ html, body {
     position: relative;
     background-position: center;
 }
-
-#Home-Bottom p { 
+  
+ #Home-Bottom p {
     position: absolute;
     font-family:Ovo;
     font-size: 30px;
     color:#111a27 ;
-    margin-left: 41%;
-    top: 27%;
+    margin-left: 48%;
+    top: 30%;
     width:max-content;
     text-align: right;
     font-weight: bold;
 }
-
-#Home-Time {
-    font-family: Lexend;
+  
+ #Home-Time {
+    font-family: lexend;
 }
-
-#About-Top{
+  
+ #About-Top {
     background-image: url(../Images/Background/About_Top.png);
     padding-top: 20px;
     background-size: cover;
     min-width: 100vh;
     min-height: 100vh;
     position: relative;
-   background-position: center;
- }
-  
- #About-History{
+    background-position: center;
+}
+
+ #About-Top {
+    margin-top: 100px;
+}
+
+ #About-History {
     position: absolute;
     font-family:Ovo;
     font-size: 25px;
@@ -241,22 +241,144 @@ html, body {
     text-align: right;
     font-weight: bold   ;
    
- }
- #About-History span{
+}
+ 
+ #About-History span {
     font-family: Lexend;
     font-size: 48px;
-   font-weight:bolder;
- }
- #About-History span1{
+    font-weight:bolder;
+}
+
+ #About-History span1 {
     font-family:Pinyon script;
     font-size: 45px;
     margin-right: 15%;
-   font-weight:bolder;
-   
- }
- #About-History span2{
+    font-weight:bolder;
+}
+
+ #About-History span2 {
     font-family: Pinyon script;
     font-size: 45px;
-   font-weight:bolder;
- }
+    font-weight:bolder;
+}
   
+ #About-Mid {
+    background-color:#dac0a3 ;
+    padding-top: 20px;
+    background-size: cover;
+    min-width: 100vh;
+    min-height: 100vh;
+    position: relative;
+    background-position: center;
+}
+  
+ #About-Quote {
+    font-size:42px ;
+    font-family: Ovo;
+    text-align: center;
+    margin-top: 12%;
+    color: black;
+}
+
+ #About-Yapping {
+    font-family: Lexend;
+    font-size: 25px;
+    text-align: center;
+}
+  
+ #About-Bottom {
+    background-image: url(../Images/Background/About_Bottom.png);
+    padding-top: 20px;
+    background-size: cover;
+    min-width: 100vh;
+    min-height: 100vh;
+    position: relative;
+    background-position: center;
+}
+  
+ #About-End {
+    position: absolute;
+    font-family:Ovo;
+    font-size: 57px;
+    color:#111a27 ;
+    margin-left: 3%;
+    top: 35%;
+    width:max-content;
+}
+  
+ #About-End span {
+    font-family: Pinyon Script;
+}
+  
+ #About-End span1 {
+    font-family: Lexend;
+}
+  
+ #About-Quote span1 {
+    font-family: Lexend;
+}
+  
+ #About-Quote span2 {
+    font-family: Pinyon Script;
+}
+  
+footer {
+    background-color: #102C57;
+    color: #eee;
+    margin: 0px 0px 0px 0px;
+    padding: 5px 5px 40px 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+   
+ .foot-info,
+ .foot-franchise {
+    margin-bottom: 10px;
+    margin-top: 40px;
+    font-family: Lexend;
+}
+   
+ .foot-info h3 {
+    font-size: 20px;
+    font-weight: normal;
+}
+   
+ .foot-info p {
+    margin-top: 10px;
+    font-size: 20px;
+}
+   
+ .foot-franchise ul {
+    list-style: none;
+    padding: 0px;
+    margin-left: 0;
+}
+   
+ .foot-franchise li {
+    margin-bottom: 8px;
+    padding-right: 40px;
+    font-size: 23px;
+}
+   
+ .foot-franchise {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+   
+ .foot-franchise .col1,
+ .foot-franchise .col2,
+ .foot-franchise .col3 {
+    list-style: none;
+    padding: 0px;
+}
+
+
+
+
+
+
+
+
