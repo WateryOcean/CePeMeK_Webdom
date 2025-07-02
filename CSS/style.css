@@ -222,9 +222,30 @@ html, body {
     width: 100%; 
 }
 
+.purchBtn-Class {
+    display: inline-block;
+    position: fixed;
+    margin-top: 25%;
+    margin-left: 89%;
+    padding: 60px 60px;
+    border: none;
+    border-radius: 60px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,1.3);
+    transition: background-color 0.3s ease;
+    opacity: 0.4;
+    z-index: 3;
+}
+
+.purchBtn-Class:hover {
+    background-color: rgba(16, 44, 87);
+    opacity: 1;
+    transform: scale(1.01);
+}
+
 .prod {
     background-color: rgba(255, 255, 255, 0.8);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(0,0,0,1);
     border-radius: 20px;
     align-items: center;
     display: flex;
