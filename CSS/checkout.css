@@ -96,3 +96,52 @@
 #purchaseForm button[type="submit"]:hover {
     background-color: #0d162e;
 }
+
+.receipt-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.receipt-table th,
+.receipt-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+    color: #333;
+}
+
+.receipt-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #111a27;
+}
+
+.receipt-table tfoot td {
+    background-color: #e9ecef;
+    font-weight: bold;
+    font-size: 18px;
+    border-top: 2px solid #ccc;
+}
+
+/* Styling untuk Tombol "Kembali ke Halaman Sebelumnya" */
+.return-button {
+    display: block;
+    width: fit-content;
+    margin: 30px auto 0 auto;
+    padding: 12px 25px;
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Lexend', sans-serif;
+}
+
+.return-button:hover {
+    background-color: #5a6268;
+}
