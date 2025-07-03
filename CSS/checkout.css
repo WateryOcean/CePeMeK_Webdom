@@ -1,0 +1,98 @@
+
+#Checkout {
+    background-image: url(../Images/Background/Products_Background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh; 
+    padding-top: 120px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-start;
+}
+
+
+.checkout-form-section,
+.receipt-section {
+    background-color: rgba(255, 255, 255, 0.9); 
+    box-shadow: 0 4px 12px rgba(0,0,0,1); 
+    border-radius: 20px; 
+    padding: 60px; 
+    margin: 20px auto; 
+    max-width: 800px;
+    width: 90%; 
+    height: 90%;
+}
+
+
+.checkout-form-section h2,
+.receipt-section h2 {
+    color: #102C57;
+    font-family: 'Lexend', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+#purchaseForm label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #102C57;
+    font-size: 28px;
+    font-family: 'Lexend';
+}
+
+
+#purchaseForm input[type="text"],
+#purchaseForm input[type="email"],
+#purchaseForm input[type="tel"],
+#purchaseForm textarea,
+#purchaseForm select,
+#purchaseForm input[type="number"] {
+    width: 100%; 
+    padding: 12px;
+    margin-bottom: 35px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 17px;
+    box-sizing: border-box;
+    font-family: 'Lexend'; 
+}
+
+
+.total-price-display {
+    text-align: right;
+    font-size: 22px;
+    font-weight: bold;
+    color: #111a27;
+    margin-top: -10px;
+    margin-bottom: 25px;
+    font-family: 'Lexend';
+}
+
+.total-price-display span {
+    color: #007bff; 
+}
+
+#purchaseForm button[type="submit"] {
+    background-color: #102C57;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    font-family: 'Lexend', sans-serif;
+}
+
+#purchaseForm button[type="submit"]:hover {
+    background-color: #0d162e;
+}
