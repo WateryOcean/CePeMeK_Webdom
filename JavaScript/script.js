@@ -64,6 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         receiptDetails.innerHTML = `
+            <h2 class="paymentRec">Payment Receipt</h2>
             <h3 class="headingDetail">Detail Pembeli:</h3>
             <table class="receipt-table">
                 <tr>
@@ -110,12 +111,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 </tfoot>
             </table>
             <br>
-            <p class="ending">Thank you for purchasing at TIMING CAFE! Have a timely day!</p>
+            <p class="ending">
+                Thank you for purchasing at TIMING CAFE!
+                <br> 
+                Have a timely day!
+                <br>
+                Your timely treat will be delivered to your homely home soon.
+            </p>
         `;
 
     
         checkoutFormSection.style.display = 'none';
         receiptSection.style.display = 'block';
     });
-
 });

@@ -1,33 +1,44 @@
 
 #Checkout {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    min-height: 100vh; 
+    padding: 100px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
     background-image: url(../Images/Background/Products_Background.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    min-height: 100vh; 
-    padding-top: 120px; 
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    justify-content: flex-start;
 }
 
 
-.checkout-form-section,
+.checkout-form-section {
+    background-color: rgba(255, 255, 255, 0.9); 
+    box-shadow: 0 4px 12px rgba(0,0,0,1); 
+    border-radius: 20px;
+    padding: 60px; 
+    margin: 10px 100px 10px -29.5px; 
+    max-width: 800px;
+    width: 90%; 
+    height: 90%;
+}
+
 .receipt-section {
     background-color: rgba(255, 255, 255, 0.9); 
     box-shadow: 0 4px 12px rgba(0,0,0,1); 
-    border-radius: 20px; 
+    border-radius: 20px;
     padding: 60px; 
-    margin: 20px auto; 
+    margin: 10px 50px 10px 33px; 
     max-width: 800px;
     width: 90%; 
     height: 90%;
 }
 
 
-.checkout-form-section h2,
-.receipt-section h2 {
+.checkout-form-section h2 {
     color: #102C57;
     font-family: 'Lexend', sans-serif;
     font-size: 80px;
@@ -102,6 +113,19 @@
     font-size: 25px;
 }
 
+#receiptSection {
+    display: none;
+}
+
+.paymentRec {
+    color: #102C57;
+    font-family: 'Lexend', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
 .receipt-table {
     width: 100%;
     border-collapse: collapse;
@@ -148,20 +172,19 @@ tbody tr td {
     border-top: 2px solid #ccc;
 }
 
-/* Styling untuk Tombol "Kembali ke Halaman Sebelumnya" */
 .return-button {
-    display: block;
-    width: fit-content;
-    margin: 30px auto 0 auto;
-    padding: 12px 25px;
     background-color: #102C57;
     color: white;
+    padding: 15px 25px;
     border: none;
     border-radius: 8px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
     font-family: 'Lexend', sans-serif;
 }
 
