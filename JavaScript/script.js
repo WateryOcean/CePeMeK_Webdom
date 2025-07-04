@@ -62,5 +62,60 @@ document.addEventListener('DOMContentLoaded', () => {
             alert('Please fill the form and all quantities are valid!.')
             return;
         }
+
+        receiptDetails.innerHTML = `
+            <h3 class="headingDetail">Detail Pembeli:</h3>
+            <table class="receipt-table">
+                <tr>
+                    <td class="leftPembeli"><strong>Nama Lengkap:</strong></td>
+                    <td class="rightPembeli">${fullName}</td>
+                </tr>
+                <tr>
+                    <td class="leftPembeli"><strong>Email:</strong></td>
+                    <td class="rightPembeli">${email}</td>
+                </tr>
+                <tr>
+                    <td class="leftPembeli"><strong>Nomor Telepon:</strong></td>
+                    <td class="rightPembeli">${phone}</td>
+                </tr>
+                <tr>
+                    <td class="leftPembeli"><strong>Alamat Pengiriman:</strong></td>
+                    <td class="rightPembeli">${address}</td>
+                </tr>
+            </table>
+
+            <h3 class="headingDetail">Detail Pesanan:</h3>
+            <table class="receipt-table">
+                <thead>
+                    <tr>
+                        <th>Produk</th>
+                        <th>Harga Satuan</th>
+                        <th>Jumlah</th>
+                        <th>Subtotal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>${purchasedProductName}</td>
+                        <td>Rp${purchasedProductPrice.toLocaleString('id-ID')},00</td>
+                        <td>${purchasedQuantity}</td>
+                        <td>Rp${(purchasedProductPrice * purchasedQuantity).toLocaleString('id-ID')},00</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3" style="text-align:right;"><strong>Total Pembayaran:</strong></td>
+                        <td><strong>Rp${finalTotalPayment.toLocaleString('id-ID')},00</strong></td>
+                    </tr>
+                </tfoot>
+            </table>
+            <br>
+            <p class="ending">Thank you for purchasing at TIMING CAFE! Have a timely day!</p>
+        `;
+
+    
+        checkoutFormSection.style.display = 'none';
+        receiptSection.style.display = 'block';
     });
+
 });

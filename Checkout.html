@@ -15,14 +15,14 @@
                 <label for="productSelect">Select Product:</label>
                 <select id="productSelect" name="product" required>
                     <option value="">Choose Product</option>
-                    <option value="cappuccino_39000">Cappuccino</option>
-                    <option value="americano_49000">Americano</option>
-                    <option value="latte_49000">Latte</option>
-                    <option value="butterscotch_45000">Butterscotch Latte</option>
-                    <option value="affogato_30000">Affogato</option>
-                    <option value="hotChoc_25000">Hot Chocolate</option>
-                    <option value="croissant_20000">Croissant au beurre</option>
-                    <option value="eclair_25000">Éclair</option>
+                    <option value="Cappuccino_39000">Cappuccino</option>
+                    <option value="Americano_49000">Americano</option>
+                    <option value="Latte_49000">Latte</option>
+                    <option value="Butterscotch Latte_45000">Butterscotch Latte</option>
+                    <option value="Affogato_30000">Affogato</option>
+                    <option value="Hot Chocolate_25000">Hot Chocolate</option>
+                    <option value="Croissant au beurre_20000">Croissant au beurre</option>
+                    <option value="Éclair_25000">Éclair</option>
                 </select>
 
                 <label for="quantity">Item Amount</label>
@@ -44,7 +44,7 @@
                 <input type="tel" id="phone" name="phone" required>
 
                 <label for="address">Delivery Address:</label>
-                <textarea id="address" name="address" rows="4" required></textarea>
+                <input type="text" id="address" name="address" rows="4" required></textarea>
 
                 <button type="submit">Confirm Purchase</button>
             </form>
@@ -54,7 +54,7 @@
             <h2>Payment Receipt</h2>
             <div id="receiptDetails">
                 </div>
-            <button type="button" class="return-button" onclick="window.history.back()">Cancel Purchase</button>
+            <button type="button" class="return-button" onclick="window.location.href='Products.html'">Back to Products</button>
         </section>
     </main>
 
