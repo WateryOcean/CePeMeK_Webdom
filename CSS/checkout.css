@@ -97,25 +97,48 @@
     background-color: #0d162e;
 }
 
+.headingDetail {
+    font-family: 'Lexend';
+    font-size: 25px;
+}
+
 .receipt-table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
+    background-color: #102C57;
+    border: 1px solid #102C57;
+    border-radius: 10px;     
+    overflow: hidden;    
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .receipt-table th,
 .receipt-table td {
-    border: 1px solid #ddd;
+    border: 1px solid #102C57;
     padding: 12px;
     text-align: left;
     font-size: 16px;
-    color: #333;
+    font-family: 'Lexend', sans-serif;
 }
 
-.receipt-table th {
-    background-color: #f2f2f2;
+.leftPembeli {
     font-weight: bold;
-    color: #111a27;
+    color: black;
+    background-color: #e9ecef;
+}
+
+.rightPembeli {
+    color: black;
+    background-color: white;
+}
+
+th {
+    background-color: #e9ecef;
+}
+
+tbody tr td {
+    background-color: #fff;
 }
 
 .receipt-table tfoot td {
@@ -131,7 +154,7 @@
     width: fit-content;
     margin: 30px auto 0 auto;
     padding: 12px 25px;
-    background-color: #6c757d;
+    background-color: #102C57;
     color: white;
     border: none;
     border-radius: 8px;
@@ -143,5 +166,13 @@
 }
 
 .return-button:hover {
-    background-color: #5a6268;
+    background-color: #0d162e;
+}
+
+.ending {
+    font-family: 'Lexend', sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
 }
