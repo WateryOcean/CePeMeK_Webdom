@@ -1,4 +1,4 @@
-
+/* --- Styling untuk Kontainer Utama Halaman Checkout --- */
 #Checkout {
     display: flex;
     align-items: center; 
@@ -14,7 +14,7 @@
     background-attachment: fixed;
 }
 
-
+/* --- Styling untuk Kotak Form Checkout --- */
 .checkout-form-section {
     background-color: rgba(255, 255, 255, 0.9); 
     box-shadow: 0 4px 12px rgba(0,0,0,1); 
@@ -26,6 +26,7 @@
     height: 90%;
 }
 
+/* --- Styling untuk Kotak Struk Pembayaran --- */
 .receipt-section {
     background-color: rgba(255, 255, 255, 0.9); 
     box-shadow: 0 4px 12px rgba(0,0,0,1); 
@@ -37,7 +38,7 @@
     height: 90%;
 }
 
-
+/* --- Styling untuk Judul Utama di Form --- */
 .checkout-form-section h2 {
     color: #102C57;
     font-family: 'Lexend', sans-serif;
@@ -47,6 +48,7 @@
     text-align: center;
 }
 
+/* --- Styling untuk Label Input --- */
 #purchaseForm label {
     display: block;
     margin-bottom: 8px;
@@ -56,7 +58,7 @@
     font-family: 'Lexend';
 }
 
-
+/* --- Styling untuk Semua Input Fields --- */
 #purchaseForm input[type="text"],
 #purchaseForm input[type="email"],
 #purchaseForm input[type="tel"],
@@ -73,7 +75,7 @@
     font-family: 'Lexend'; 
 }
 
-
+/* --- Styling untuk Tampilan Total Harga --- */
 .total-price-display {
     text-align: right;
     font-size: 22px;
@@ -84,10 +86,15 @@
     font-family: 'Lexend';
 }
 
+/*
+ * Selector ini menargetkan sebuah elemen <span> yang berada DI DALAM 
+ * elemen lain yang memiliki kelas (class) 'total-price-display'.
+ */
 .total-price-display span {
     color: #007bff; 
 }
 
+/* --- Styling untuk Tombol Submit --- */
 #purchaseForm button[type="submit"] {
     background-color: #102C57;
     color: white;
@@ -104,19 +111,24 @@
     font-family: 'Lexend', sans-serif;
 }
 
+/* --- Styling untuk Tombol Submit saat Kursor di Atasnya (Hover) --- */
 #purchaseForm button[type="submit"]:hover {
     background-color: #0d162e;
 }
 
+/* --- Aturan untuk Struk Pembayaran --- */
 .headingDetail {
     font-family: 'Lexend';
     font-size: 25px;
 }
 
+/* Secara default, bagian struk disembunyikan. 
+   JavaScript akan mengubah ini menjadi 'display: block' untuk menampilkannya. */
 #receiptSection {
     display: none;
 }
 
+/* Styling judul utama pada struk. */
 .paymentRec {
     color: #102C57;
     font-family: 'Lexend', sans-serif;
@@ -126,6 +138,7 @@
     text-align: center;
 }
 
+/* Styling tabel pada struk. */
 .receipt-table {
     width: 100%;
     border-collapse: collapse;
@@ -137,6 +150,7 @@
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
+/* Styling untuk semua sel (header dan data) di dalam tabel. */
 .receipt-table th,
 .receipt-table td {
     border: 1px solid #102C57;
@@ -146,25 +160,30 @@
     font-family: 'Lexend', sans-serif;
 }
 
+/* Styling khusus untuk sel kolom kiri pada detail pembeli. */
 .leftPembeli {
     font-weight: bold;
     color: black;
     background-color: #e9ecef;
 }
 
+/* Styling khusus untuk sel kolom kanan pada detail pembeli. */
 .rightPembeli {
     color: black;
     background-color: white;
 }
 
+/* Styling untuk header tabel (Produk, Harga, dll). */
 th {
     background-color: #e9ecef;
 }
 
+/* Styling untuk sel data di dalam body tabel. */
 tbody tr td {
     background-color: #fff;
 }
 
+/* Styling untuk bagian footer tabel (Total Pembayaran). */
 .receipt-table tfoot td {
     background-color: #e9ecef;
     font-weight: bold;
@@ -172,6 +191,7 @@ tbody tr td {
     border-top: 2px solid #ccc;
 }
 
+/* Styling untuk paragraf penutup. */
 .return-button {
     background-color: #102C57;
     color: white;
@@ -188,10 +208,12 @@ tbody tr td {
     font-family: 'Lexend', sans-serif;
 }
 
+/* Styling untuk paragraf penutup, ketika hover */
 .return-button:hover {
     background-color: #0d162e;
 }
 
+/* Styling untuk paragraf penutup. */
 .ending {
     font-family: 'Lexend', sans-serif;
     font-size: 23px;
@@ -200,12 +222,15 @@ tbody tr td {
     padding-bottom: 20px;
 }
 
+/* --- DESAIN RESPONSIVE (MEDIA QUERY) --- */
+/* Aturan di dalam blok ini hanya akan aktif jika lebar layar 1024px atau lebih kecil. */
 @media (max-width: 1024px) {
     #Checkout {
         padding: 80px 20px 30px 20px; 
         min-height: auto; 
     }
 
+    /* Menyesuaikan padding, margin, dan lebar untuk kotak form. */
     .checkout-form-section {
         padding: 60px;
         margin: 15px auto 10px -38.4px; 
@@ -213,6 +238,7 @@ tbody tr td {
         height: auto; 
     }
 
+    /* Menyesuaikan padding, margin, dan lebar untuk kotak struk. */
     .receipt-section {
         padding: 60px;
         margin: 15px auto 10px -27px; 
@@ -220,16 +246,19 @@ tbody tr td {
         height: auto; 
     }
 
+    /* Mengecilkan ukuran font judul. */
     .checkout-form-section h2,
     .paymentRec {
         font-size: 55px;
         margin-bottom: 60px;
     }
 
+    /* Mengecilkan ukuran font dan properti lainnya agar sesuai dengan layar yang lebih kecil. */
     #purchaseForm label {
         font-size: 24px;
     }
 
+    /* Menyesuaikan semua kolom input di dalam form untuk layar kecil. */
     #purchaseForm input[type="text"],
     #purchaseForm input[type="email"],
     #purchaseForm input[type="tel"],
@@ -241,12 +270,14 @@ tbody tr td {
         font-size: 16px;
     }
 
+    /* Menyesuaikan tampilan total harga untuk layar kecil. */
     .total-price-display {
         font-size: 20px;
         margin-top: 0;
         margin-bottom: 20px;
     }
 
+    /* Menyesuaikan ukuran tombol submit dan tombol kembali. */
     #purchaseForm button[type="submit"],
     .return-button {
         padding: 12px 20px;
@@ -254,22 +285,26 @@ tbody tr td {
         margin-top: 25px;
     }
 
+    /* Menyesuaikan sub-judul di bagian struk ('Detail Pembeli:', 'Detail Pesanan:'). */
     .headingDetail {
         font-size: 22px;
         margin-top: 25px;
         margin-bottom: 10px;
     }
 
+    /* Menyesuaikan sel tabel (header dan data) di struk pembayaran. */
     .receipt-table th,
     .receipt-table td {
         padding: 10px;
         font-size: 15px;
     }
 
+    /* Menyesuaikan sel di bagian footer tabel (baris Total Pembayaran). */
     .receipt-table tfoot td {
         font-size: 17px;
     }
 
+    /* Menyesuaikan teks penutup di bagian akhir struk. */
     .ending {
         font-size: 20px;
         padding-bottom: 15px;

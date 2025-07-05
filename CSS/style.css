@@ -1,11 +1,12 @@
+/* Mendefinisikan font kustom bernama 'Lexend' */
 @font-face {
     src: url('../Fonts/Lexend/Lexend-VariableFont_wght.ttf') format(ttf);
     font-family: 'Lexend';
     font-style: normal;
     font-weight: normal;   
 }
- 
- 
+
+/* Mendefinisikan font kustom bernama 'Ovo' */
 @font-face {
     src: url('../Fonts/Ovo/Ovo-Regular.ttf') format(ttf);
     font-family: 'Ovo';
@@ -13,18 +14,21 @@
     font-weight: normal;   
 }
  
+/* Mendefinisikan font kustom bernama 'Pinyon Script' */
 @font-face {
     src: url('../Fonts/Pinyon_Script/PinyonScript-Regular.ttf') format(ttf);
     font-family: 'Pinyon Script';
     font-style: normal;
     font-weight: normal;   
 }
- 
+
+/*reset dasar untuk menghapus margin dan padding default yang diberikan oleh browser. */
 html, body {
     margin: 0;
     padding: 0;
 }
  
+/* Styling elemen dengan kelas 'main-navigation' */
 .main-navigation {
     background-color: #102C57;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
@@ -38,6 +42,7 @@ html, body {
     z-index: 100;
 }
  
+/* Styling  daftar (<ul>) di dalam navigasi */
 .main-navigation ul {
     display: flex;
     justify-content: center;
@@ -47,25 +52,25 @@ html, body {
     padding: 0;
 }
  
+/* Styling link (<a>) di dalam navigasi */
 .main-navigation li a {
     color: white; 
     font-family: 'Lexend';
     font-size: 35px;
     font-weight: lighter;
     text-decoration: none; 
-}
- 
-.main-navigation li a {
     color: #aaa;
     font-weight: bold;
     text-decoration: none;
     transition: color 0.3s ease;
 }
  
+/* Styling link saat kursor mouse berada di atasnya (:hover) */
 .main-navigation li a:hover {
     color: white
 }
- 
+
+/* ID ini digunakan untuk memberi warna putih pada link tertentu secara default, menimpa warna abu-abu. */
 #HA {
     color: white;
 }
@@ -77,11 +82,13 @@ html, body {
 #AA {
     color: white;
 }
- 
+
+
 #main-brand {
     margin-top: 100px;
 }
 
+/* Styling Bagian Atas Halaman Utama */
 #Home-Top {
     background-image: url(../Images/Background/Home_Top.png);
     background-position: center;
@@ -92,6 +99,7 @@ html, body {
     position: relative;
 }
   
+/* styling Logo Kafe */
 #Logo-Cafe {
     height: auto;
     position: absolute;
@@ -99,7 +107,8 @@ html, body {
     top: 22%;
     width: 29%;
 }
-  
+ 
+/*Styling Judul Merek Utama */
 #main-brand {
     color: #111a27;
     font-family: 'Lexend';
@@ -109,6 +118,7 @@ html, body {
     position: absolute;
 }
   
+/* Styling Slogan */
 #slogan {
     color: #111a27 ;
     font-family: 'Ovo';
@@ -123,6 +133,7 @@ html, body {
     font-family: Pinyon Script;
 }
   
+/* Styling Bagian Tengah Halaman Utama (dengan Video) */
 #Home-Mid {
     align-items: center;
     display: flex;
@@ -134,6 +145,7 @@ html, body {
     overflow: hidden;
 }
   
+/* Styling Kartu Fitur */
 .fitur {
     color: white;
     align-items: center;
@@ -155,6 +167,7 @@ html, body {
     width: 100px;
 }
   
+/* Styling  Latar Belakang Video */
 .video-background {
     height: 100%;
     left: 0;
@@ -166,6 +179,7 @@ html, body {
     z-index: 0;
 }
   
+/* Styling background Video terfokus ke Video itu sendiri */
 .video-background video {
     min-width: 100%;
     min-height: 100%;
@@ -175,6 +189,7 @@ html, body {
     position: absolute;  
 }
   
+/* styling di Atas Video */
 .video-overlay {
     background-color: rgba(0, 0, 0, 0.703);
     height: 100%;
@@ -186,6 +201,7 @@ html, body {
     z-index: 1;
 }
   
+/* Styling Bagian Bawah Halaman Utama (dengan Gambar) */
 #Home-Bottom {
     background-image: url(../Images/Background/Home_Bottom.png);
     background-position: center;
@@ -195,7 +211,8 @@ html, body {
     padding-top: 180px;
     position: relative;
 }
-  
+ 
+/* Styling Bagian Bawah Halaman Utama terfokus ke paragraf */
 #Home-Bottom p {
     color: #111a27 ;
     font-family: 'Ovo';
@@ -208,10 +225,12 @@ html, body {
     width: max-content;
 }
   
+/* Styling font */
 #Home-Time {
     font-family: 'Lexend';
 }
 
+/* Styling body daripada product.html*/
 #Products {
     background-image: url(../Images/Background/Products_Background.jpg);
     background-size: cover;
@@ -223,6 +242,7 @@ html, body {
     width: 100%; 
 }
 
+/* Styling border daripada produk dan ketika kursor menyentuh border(hover)*/ 
 .purchBtn-Class {
     display: inline-block;
     position: fixed;
@@ -250,6 +270,7 @@ html, body {
     background-size: 70px;
 }
 
+/* Styling background border,gambar,font di dalam border dan ketika border lewati oleh kursor */
 .prod {
     background-color: rgba(255, 255, 255, 0.8);
     box-shadow: 0 4px 12px rgba(0,0,0,1);
@@ -309,6 +330,7 @@ html, body {
     margin-top: 5px;
 }
   
+/* Styling bagian atas halaman 'About' */
 #About-Top {
     background-image: url(../Images/Background/About_Top.png);
     background-position: center;
@@ -320,6 +342,7 @@ html, body {
     position: relative;  
 }
 
+/* Styling font */
 #About-History {
     color:#111a27 ;
     font-family: 'Ovo';
@@ -332,6 +355,7 @@ html, body {
     width: max-content;
 }
  
+/* Styling font khusus (span) */
 #About-History span {
     font-family: 'Lexend';
     font-size: 48px;
@@ -351,6 +375,7 @@ html, body {
     font-weight: bolder;
 }
   
+/* Styling bagian tengah halaman 'About' */
 #About-Mid {
     background-color: #dac0a3 ;
     background-position: center;
@@ -361,6 +386,7 @@ html, body {
     position: relative;   
 }
   
+/* Styling font halaman 'Quote' */
 #About-Quote {
     color: black;
     font-family: 'Ovo';
@@ -369,12 +395,14 @@ html, body {
     text-align: center;
 }
 
+/* Styling font halaman 'yapping' */
 #About-Yapping {
     font-family: 'Lexend';
     font-size: 25px;
     text-align: center;
 }
   
+/* Styling bagian Akhir halaman 'About' */
 #About-Bottom {
     background-image: url(../Images/Background/About_Bottom.png);
     background-position: center;
@@ -385,6 +413,7 @@ html, body {
     position: relative;
 }   
   
+/* Styling font halaman 'About-End' */
 #About-End {
     color: #111a27 ;
     font-family: 'Ovo';
@@ -411,6 +440,7 @@ html, body {
     font-family: 'Pinyon Script';
 }
   
+/* Styling footer */
 footer {
     color: #eee;
     background-color: #102C57;
@@ -420,7 +450,8 @@ footer {
     margin: 0px 0px 0px 0px;
     padding: 5px 5px 40px 40px;
 }
-   
+
+/* Styling font fotter */
 .foot-info,
 .foot-franchise {
     font-family: 'Lexend';
@@ -464,7 +495,9 @@ footer {
     padding: 0px;
 }
 
+/* Styling keseluruhan HTML untuk membuat responsif pada layar tablet atau desktop lebih kecil<= 1024px */
 @media (max-width: 1024px) {
+
 
     .main-navigation {
         padding: 25px 0; 
