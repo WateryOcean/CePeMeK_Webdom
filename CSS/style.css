@@ -618,6 +618,6 @@ footer {
         font-size: 48px;
         margin-left: 5%;
         top: 30%;
-        max-content: 60%;
+        max-width: 60%;
     }
 }

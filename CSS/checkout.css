@@ -199,3 +199,79 @@ tbody tr td {
     text-align: center;
     padding-bottom: 20px;
 }
+
+@media (max-width: 1024px) {
+    #Checkout {
+        padding: 80px 20px 30px 20px; 
+        min-height: auto; 
+    }
+
+    .checkout-form-section {
+        padding: 60px;
+        margin: 15px auto 10px -38.4px; 
+        max-width: 95%;
+        height: auto; 
+    }
+
+    .receipt-section {
+        padding: 60px;
+        margin: 15px auto 10px -27px; 
+        max-width: 95%;
+        height: auto; 
+    }
+
+    .checkout-form-section h2,
+    .paymentRec {
+        font-size: 55px;
+        margin-bottom: 60px;
+    }
+
+    #purchaseForm label {
+        font-size: 24px;
+    }
+
+    #purchaseForm input[type="text"],
+    #purchaseForm input[type="email"],
+    #purchaseForm input[type="tel"],
+    #purchaseForm textarea,
+    #purchaseForm select,
+    #purchaseForm input[type="number"] {
+        padding: 10px;
+        margin-bottom: 25px;
+        font-size: 16px;
+    }
+
+    .total-price-display {
+        font-size: 20px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    #purchaseForm button[type="submit"],
+    .return-button {
+        padding: 12px 20px;
+        font-size: 18px;
+        margin-top: 25px;
+    }
+
+    .headingDetail {
+        font-size: 22px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+
+    .receipt-table th,
+    .receipt-table td {
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .receipt-table tfoot td {
+        font-size: 17px;
+    }
+
+    .ending {
+        font-size: 20px;
+        padding-bottom: 15px;
+    } 
+} 
